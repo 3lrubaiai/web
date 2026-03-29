@@ -7,65 +7,64 @@
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
 <style>
-        /* Using Cairo as a proxy for Bahij as requested, mapped via font-family in config */
-        body {
-            font-family: 'Cairo', sans-serif;
-            scroll-behavior: smooth;
-    
-        }
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        .editorial-grid {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            gap: 2rem;
-        }
-        .glass-nav {
-            background: rgba(252, 249, 244, 0.85);
-            backdrop-filter: blur(20px);
-        }
-    </style>
+        /* Using Cairo as a proxy for Bahij as requested, mapped via font-family in config */
+        body {
+            font-family: 'Cairo', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 2rem;
+        }
+        .glass-nav {
+            background: rgba(252, 249, 244, 0.85);
+            backdrop-filter: blur(20px);
+        }
+    </style>
 <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "primary": "#061b0e", /* Deep Green */
-                        "primary-container": "#1b3022",
-                        "on-primary": "#ffffff",
-                        "secondary": "#4e6073", /* Charcoal Navy */
-                        "surface": "#fcf9f4", /* Soft Ivory */
-                        "surface-container-low": "#f6f3ee",
-                        "surface-container-highest": "#e5e2dd",
-                        "outline-variant": "#c3c8c1",
-                        "accent-brown": "#8c6239", /* Sophisticated Brown */
-                        "on-surface": "#1c1c19",
-                        "on-surface-variant": "#434843"
-                    },
-                    fontFamily: {
-                        "headline": ["Cairo"],
-                        "body": ["Cairo"],
-                        "label": ["Cairo"]
-                    },
-                    borderRadius: {
-                        "DEFAULT": "0.125rem",
-                        "lg": "0.25rem",
-                        "xl": "0.5rem",
-                        "full": "0.75rem"
-                    },
-                },
-            },
-        }
-    </script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#061b0e", /* Deep Green */
+                        "primary-container": "#1b3022",
+                        "on-primary": "#ffffff",
+                        "secondary": "#4e6073", /* Charcoal Navy */
+                        "surface": "#fcf9f4", /* Soft Ivory */
+                        "surface-container-low": "#f6f3ee",
+                        "surface-container-highest": "#e5e2dd",
+                        "outline-variant": "#c3c8c1",
+                        "accent-brown": "#8c6239", /* Sophisticated Brown */
+                        "on-surface": "#1c1c19",
+                        "on-surface-variant": "#434843"
+                    },
+                    fontFamily: {
+                        "headline": ["Cairo"],
+                        "body": ["Cairo"],
+                        "label": ["Cairo"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                },
+            },
+        }
+    </script>
 </head>
 <body class="bg-surface text-secondary antialiased overflow-x-hidden">
 <header class="fixed top-0 w-full z-50 bg-[#fcf9f4]/85 backdrop-blur-md shadow-[0_10px_30px_rgba(6,27,14,0.06)]">
 <div class="flex justify-between items-center px-6 md:px-12 py-5 w-full max-w-screen-2xl mx-auto rtl">
 <div class="text-2xl font-bold text-primary tracking-tighter uppercase font-['Cairo']" style="">
-                The Institutional Curator
-            </div>
+                The Institutional Curator
+            </div>
 <nav class="hidden md:flex gap-8 items-center">
 <a class="font-['Cairo'] tracking-tight text-sm uppercase text-primary border-b-2 border-primary pb-1 transition-colors duration-300" href="#intro" style="">مقدمة</a>
 <a class="font-['Cairo'] tracking-tight text-sm uppercase text-on-surface-variant hover:text-primary transition-colors duration-300" href="#biographies" style="">من يقود العمل</a>
@@ -74,8 +73,8 @@
 <a class="font-['Cairo'] tracking-tight text-sm uppercase text-on-surface-variant hover:text-primary transition-colors duration-300" href="#pricing" style="">التسعير</a>
 </nav>
 <button class="bg-primary-container text-white px-6 py-2 rounded-lg text-sm font-medium hover:scale-95 duration-200 ease-in-out" style="">
-                اتصل بالمنسق
-            </button>
+                اتصل بالمنسق
+            </button>
 </div>
 </header>
 <main class="pt-24">
@@ -88,7 +87,7 @@
 <h1 class="text-6xl md:text-8xl font-black text-primary mb-6 tracking-tight leading-tight" style="">الدليل الإبداعي</h1>
 <h2 class="text-3xl md:text-4xl font-light text-secondary mb-8" style="">للهدية التذكارية الخاصة</h2>
 <div class="w-24 h-px bg-accent-brown mx-auto mb-8"></div>
-<p class="text-xl font-medium text-on-surface mb-4" style="">مشروع إبداعي يُنفَّذ لصالح شركة بي بي عُمان</p>
+<p class="text-xl font-medium text-on-surface mb-4" style="">مشروع إبداعي يُنفَّذ لصالح شركة بي بي عُمان</p>
 <div class="flex flex-col md:flex-row gap-8 justify-center mt-12 text-sm uppercase tracking-widest text-on-surface-variant">
 <p class="" style="">إدارة العمل الفني: <span class="text-primary font-bold" style="">الخطاط حسين الروشدي</span></p>
 <p class="" style="">الإدارة الإبداعية: <span class="text-primary font-bold" style="">سليمان الربيعي</span></p>
@@ -106,15 +105,15 @@
 </div>
 <div class="col-span-12 md:col-span-7 space-y-8">
 <p class="text-xl leading-relaxed text-on-surface-variant" style="">
-                        يقدّم هذا الدليل تصورًا إبداعيًا مختصرًا لهدية تذكارية رفيعة المستوى، نعمل على تطويرها وتنفيذها لصالح شركة بي بي عُمان، على أن تتولى الشركة تقديمها رسميًا إلى الشخصية المُهدى إليها.
-                    </p>
+                        يقدّم هذا الدليل تصورًا إبداعيًا مختصرًا لهدية تذكارية رفيعة المستوى، نعمل على تطويرها وتنفيذها لصالح شركة بي بي عُمان، على أن تتولى الشركة تقديمها رسميًا إلى الشخصية المُهدى إليها.
+                    </p>
 <p class="text-xl leading-relaxed text-on-surface-variant" style="">
-                        ونحن في هذا المشروع نعمل بصفتنا منفذين إبداعيين مستقلين، نقدّم خبرتنا الفنية والإبداعية لبناء عمل يحمل قيمة رمزية عالية، ويترجم التقدير، وجودة التنفيذ، والحضور الرسمي اللائق بالمناسبة.
-                    </p>
+                        ونحن في هذا المشروع نعمل بصفتنا منفذين إبداعيين مستقلين، نقدّم خبرتنا الفنية والإبداعية لبناء عمل يحمل قيمة رمزية عالية، ويترجم التقدير، وجودة التنفيذ، والحضور الرسمي اللائق بالمناسبة.
+                    </p>
 <div class="p-8 border-r-4 border-primary bg-surface shadow-sm">
 <p class="text-lg italic text-secondary leading-relaxed" style="">
-                            "تتمثل مهمتنا في قيادة العمل بوصفنا منفذين إبداعيين مستقلين، نجمع بين الخبرة الفنية والرؤية الإبداعية، بما يضمن أن تخرج الهدية بمستوى يليق بالجهة المقدِّمة والشخصية المُهدى إليها."
-                        </p>
+                            "تتمثل مهمتنا في قيادة العمل بوصفنا منفذين إبداعيين مستقلين، نجمع بين الخبرة الفنية والرؤية الإبداعية، بما يضمن أن تخرج الهدية بمستوى يليق بالجهة المقدِّمة والشخصية المُهدى إليها."
+                        </p>
 </div>
 </div>
 </div>
@@ -134,8 +133,8 @@
 </div>
 </div>
 <p class="text-lg text-on-surface-variant leading-relaxed mb-8" style="">
-                            فنان وخطاط عُماني يمتلك مسيرة تتجاوز 11 عامًا، يتميّز بقدرته على توظيف الخط بأساليب تجمع بين الأصالة والابتكار. أسس جماعة «فن» عام 2020، ودرّب أكثر من 400 طالب.
-                        </p>
+                            فنان وخطاط عُماني يمتلك مسيرة تتجاوز 11 عامًا، يتميّز بقدرته على توظيف الخط بأساليب تجمع بين الأصالة والابتكار. أسس جماعة «فن» عام 2020، ودرّب أكثر من 400 طالب.
+                        </p>
 <ul class="space-y-4">
 <li class="flex items-start gap-3" style="">
 <span class="material-symbols-outlined text-accent-brown mt-1" style="">workspace_premium</span>
@@ -159,8 +158,8 @@
 </div>
 </div>
 <p class="text-lg text-on-surface-variant leading-relaxed mb-8" style="">
-                            مدير إبداعي يقود تطوير الفكرة والاتجاه البصري وربط العمل الفني بالهوية المؤسسية، مع خبرة تجمع بين التصميم، وصناعة الهوية، والإخراج البصري.
-                        </p>
+                            مدير إبداعي يقود تطوير الفكرة والاتجاه البصري وربط العمل الفني بالهوية المؤسسية، مع خبرة تجمع بين التصميم، وصناعة الهوية، والإخراج البصري.
+                        </p>
 <div class="grid grid-cols-2 gap-4">
 <div class="p-6 bg-surface-container-low hover:bg-surface-container-highest transition-colors">
 <span class="text-xs uppercase tracking-widest text-accent-brown block mb-2" style="">الرؤية</span>
@@ -198,22 +197,24 @@
 </div>
 </div>
 <div class="absolute top-0 left-0 w-full h-full opacity-10 group-hover:opacity-20 transition-opacity pointer-events-none">
-<img class="w-full h-full object-cover" data-alt="luxurious black marble slab with gold metallic calligraphy elements and traditional silver dagger craft" src="https://raw.githubusercontent.com/3lrubaiai/web/main/tt1.jpeg" style="">
+<img class="w-full h-full object-cover" data-alt="luxurious black marble slab with gold metallic calligraphy elements and traditional silver dagger craft" src="https://raw.githubusercontent.com/3lrubaiai/web/main/tt3.jpeg" style="">
 </div>
 </div>
 <div class="md:col-span-4 md:row-span-1 bg-primary p-10 text-white flex flex-col justify-center">
-<span class="text-accent-brown text-xs font-bold mb-2" style="">مؤسسي</span>
+<img class="w-20 h-20 object-cover rounded-lg mb-6 border border-white/10" src="https://raw.githubusercontent.com/3lrubaiai/web/main/tt3.jpeg" style="">
+<span class="text-accent-brown text-xs font-bold mb-2 block" style="">مؤسسي</span>
 <h3 class="text-2xl font-bold mb-4" style="">مبنى أوكيو</h3>
 <p class="text-sm opacity-80 leading-relaxed" style="">
-                            تم دمج ملامح أوكيو في تكوين مستلهم من شكل المبنى الجديد، مع إبراز عنصر البوليمر كرمز حيوي.
-                        </p>
+                            تم دمج ملامح أوكيو في تكوين مستلهم من شكل المبنى الجديد، مع إبراز عنصر البوليمر كرمز حيوي.
+                        </p>
 </div>
 <div class="md:col-span-4 md:row-span-1 bg-accent-brown p-10 text-white flex flex-col justify-center">
-<span class="text-primary text-xs font-bold mb-2" style="">صناعي</span>
+<img class="w-20 h-20 object-cover rounded-lg mb-6 border border-white/20" src="https://raw.githubusercontent.com/3lrubaiai/web/main/tt3.jpeg" style="">
+<span class="text-primary text-xs font-bold mb-2 block" style="">صناعي</span>
 <h3 class="text-2xl font-bold mb-4" style="">مصانع لدائن</h3>
 <p class="text-sm opacity-80 leading-relaxed" style="">
-                            خريطة السلطنة مرتبطة بلولب البوليمر، مع قاعدة ترمز للنفط كأصل محوري للسلسلة الإنتاجية.
-                        </p>
+                            خريطة السلطنة مرتبطة بلولب البوليمر، مع قاعدة ترمز للنفط كأصل محوري للسلسلة الإنتاجية.
+                        </p>
 </div>
 </div>
 </div>
@@ -243,8 +244,8 @@
 <div class="absolute top-0 left-0 w-24 h-24 bg-accent-brown/20 rotate-45 -translate-x-12 -translate-y-12"></div>
 <h2 class="text-4xl font-black mb-8" style="">فهمنا لطبيعة الهدية</h2>
 <p class="text-lg opacity-80 leading-relaxed mb-8" style="">
-                        الهدية التذكارية المخصصة للشخصيات الرفيعة ليست منتجًا اعتياديًا، بل تمثيل رسمي يعكس مستوى التقدير وذائقة الجهة المقدِّمة.
-                    </p>
+                        الهدية التذكارية المخصصة للشخصيات الرفيعة ليست منتجًا اعتياديًا، بل تمثيل رسمي يعكس مستوى التقدير وذائقة الجهة المقدِّمة.
+                    </p>
 <div class="grid grid-cols-2 gap-6">
 <div class="border-t border-white/20 pt-4">
 <p class="text-xs uppercase opacity-50 mb-1" style="">الرؤية</p>
@@ -347,8 +348,8 @@
 <div class="col-span-12 md:col-span-7">
 <h2 class="text-5xl font-black mb-8 leading-tight" style="">تفاصيل السعر</h2>
 <p class="text-xl opacity-80 leading-relaxed mb-12" style="">
-                        يُترك تحديد السعر النهائي لهذه المرحلة إلى حين عقد اجتماع أون لاين مع الجهة المعنية، وذلك لأن قيمة هذا النوع من الأعمال ترتبط بشكل مباشر بالتفاصيل المعتمدة في الفكرة.
-                    </p>
+                        يُترك تحديد السعر النهائي لهذه المرحلة إلى حين عقد اجتماع أون لاين مع الجهة المعنية، وذلك لأن قيمة هذا النوع من الأعمال ترتبط بشكل مباشر بالتفاصيل المعتمدة في الفكرة.
+                    </p>
 <button class="bg-accent-brown text-white px-10 py-4 rounded-lg font-bold hover:bg-white hover:text-primary transition-colors" style=""></button>
 </div>
 <div class="col-span-12 md:col-span-5 bg-white/5 p-12 rounded-xl backdrop-blur-sm border border-white/10">
@@ -379,8 +380,8 @@
 <div class="max-w-3xl mx-auto pt-20">
 <h2 class="text-4xl md:text-5xl font-black text-primary mb-12 leading-tight" style="">خاتمة</h2>
 <p class="text-2xl text-secondary leading-relaxed mb-16 italic" style="">
-                    "نطمح إلى تقديم هدية تذكارية استثنائية تعبّر عن التقدير بأعلى درجات الإتقان، ونؤمن أن الجمع بين الخبرة الفنية، والرؤية الإبداعية، هو ما يصنع الفرق الحقيقي."
-                </p>
+                    "نطمح إلى تقديم هدية تذكارية استثنائية تعبّر عن التقدير بأعلى درجات الإتقان، ونؤمن أن الجمع بين الخبرة الفنية، والرؤية الإبداعية، هو ما يصنع الفرق الحقيقي."
+                </p>
 <div class="flex justify-center gap-12">
 <div class="text-right">
 <p class="text-xs uppercase text-accent-brown mb-1" style="">المنفذ الفني</p>
